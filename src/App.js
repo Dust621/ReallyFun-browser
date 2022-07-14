@@ -55,7 +55,7 @@ function App() {
       />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/classify" element={<Classify />} />
+        <Route path="/classify/:classTag" element={<Classify />} />
         <Route path="/recommend" element={<Recommend />} />
         <Route path="/latest" element={<Latest />} />
         <Route path="/profile" element={<Profile uid={uid} />} />
